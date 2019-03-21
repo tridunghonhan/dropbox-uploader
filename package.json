@@ -1,0 +1,31 @@
+{
+  "name": "dropbox-uploader",
+  "version": "1.0.0",
+  "description": "Upload files and folders to Dropbox folder using API v2",
+  "main": "app.js",
+  "dependencies": {
+    "dropbox-v2-api": "^2.3.0",
+    "fs": "0.0.1-security",
+    "hapi": "^18.1.0",
+    "opn": "^5.5.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tridunghonhan/dropbox-uploader.git"
+  },
+  "keywords": [
+    "Dropbox",
+    "upload"
+  ],
+  "author": "Kenny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tridunghonhan/dropbox-uploader/issues"
+  },
+  "homepage": "https://github.com/tridunghonhan/dropbox-uploader#readme"
+}
