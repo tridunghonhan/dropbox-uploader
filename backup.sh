@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pushd /root/dropbox-uploader
 
 # dump mysql to file
 current=$(date +'%Y-%m-%d-%H-%M-%S')
@@ -27,3 +28,6 @@ if [ $? == 0 ] ; then
 else 
 	echo "There is an error happened. Please check"
 fi
+
+
+popd 
